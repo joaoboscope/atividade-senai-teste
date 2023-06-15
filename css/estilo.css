@@ -1,44 +1,40 @@
-/********
-
-Cabeçalho do site - menu 
-
-
-*********/
-
+/*cabeçalho*/
 header img {
     height: 70px;
     width: 70px;
 }
 
 
+/*Conteudo principal*/
 
-/******************
+main{
+    min-height: 500px;
+}
 
-Conteudo
 
-************/
+/*banner*/
+#section-banners img{
+    height: 500px;
+}
 
-/**/
-
+/*Produtos vendidos*/
 #section-vendidos {
     text-align: center;
 }
 
-#section-vendidos h2 {
-    text-align: center;
+#section-vendidos h2{
     font-weight: bold;
-
     padding: 20px;
 }
 
-#section-vendidos img {
+#section-vendidos img{
     height: 300px;
     border-radius: 10px;
 }
 
-#section-vendidos .card {
-    margin: 5px;
-    border: 1px solid #ccc;
+#section-vendidos .card{
+    margin: 15px;
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -48,59 +44,50 @@ Conteudo
     font-weight: bold;
 }
 
-/*************
-    Rodape
-*************/
+
+
+/*Rodapé*/
 
 footer {
     text-align: center;
 }
 
 footer p {
-    text-align: center;
     font-weight: bold;
-
     padding: 10px;
 }
 
-/*Botão ao Voltar topo*/
-
+/*Botão Voltar topo*/
 #voltar-topo {
     position: fixed;
     bottom: 5px;
     right: 50px;
-
 }
 
-/* ****************
-    página de login
-    
-    ********************/
+/* página de login  */
 
-#section-login h1 {
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
     text-align: center;
-
 }
 
-#section-login input {
+#section-login input{
     width: 100%;
-
-}
-
-#section-banners img {
-    height: 500px;
 }
 
 
-/* Box de informações de cadastro*/
-#panel,
-#flip {
+/* Formulário de cadastro*/
+#section-cadastro{
     padding: 5px;
     text-align: center;
-    background-color: #fff;
+    background-color: white;
 }
 
-#panel {
+#form-cadastrar{
     padding: 50px;
     display: none;
 }
+
